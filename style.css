@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Open Sans', sans-serif;
+    background: #EBEBEB;
+    color: rgb(112, 112, 112);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    
+    background: #fff;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.header img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 50%;
+    border: 5px solid #EBEBEB;
+}
+
+.header h1 {
+    color: #DD5555;
+    line-height: 2;
+}
+
+.header h3 {
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+}
+
+.header p {
+    line-height: 1.8;
+}
+
+.btn {
+    margin-top: 2.5rem;
+    background: #DD5555;
+    padding: 1rem 2.2rem;
+    display: inline-block;
+    border-radius: .5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.social {
+    background: #fff;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    padding: 8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    color: #c4c4c4;
+}
+
+.social i {
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.social__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.movies {
+    
+    background: #fff;
+    width: 60rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    padding: 3rem;
+    display: flex;
+    gap: 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.movies h3 span {
+    background: #EBEBEB;
+}
+
+.movies__item {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.movies__item img {
+    width: 10rem;
+}
+
+.movies__item--text h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.movies__item--text p {
+    line-height: 2;
+}
